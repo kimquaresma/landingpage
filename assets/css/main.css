@@ -1,0 +1,323 @@
+body{
+    /* position: relative; */
+    /* padding-bottom: 80vh; */
+    /* height: auto; */
+}
+.main{
+    position: relative;
+    /* background: #161616; */
+    /* z-index: 1; */
+}
+.sc-intro .text-area{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    /* height: 50vh; */
+    mix-blend-mode: difference;
+}
+.sc-intro .text-area .wrap{
+    padding: 50px 0;
+    min-width: 0;
+}
+.sc-intro .text-area .swiper{
+    font-size: 12vw;
+    font-weight: 600;
+    padding: 0 50px;
+    text-transform: uppercase;
+}
+.sc-intro .text-area .swiper-wrapper{
+    transition-timing-function: linear;
+}
+.sc-intro .text-area .swiper-slide{
+    width: auto;
+}
+.sc-intro .text-area p{
+    font-size: 18px;
+    padding: 0 50px;
+    max-width: 1200px;
+    line-height: 1.6;
+}
+.sc-intro .img-area{}
+/* .main .sc-keyword{
+    position: sticky;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    padding: 100px 40px 80px;
+    font-size: 130px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #fff;
+    top: 0;
+    z-index: 50;
+    margin-top: -64px;
+}
+.sc-keyword>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: inherit;
+}
+.circle{
+    background: #fff;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+.sc-keyword>div:nth-child(1) .circle{
+    opacity: 0;
+}
+
+.bot{
+    display: flex;
+    height: inherit;
+}
+.bot .left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sc-keyword .icon-group{
+    position: absolute;
+    display: flex;
+    transform: translateY(50%);
+    gap: 12px;
+    top: 0;
+    right: 0;
+}
+.sc-keyword .right{
+    position: relative;
+    display: flex;
+    flex: 1;
+    height: inherit;
+    justify-content: flex-end;
+}
+.sc-keyword .right a{
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid rgb(128, 128, 128);
+} */
+
+
+
+
+.video{
+    background: #f0f;
+    height: 100vh;
+}
+
+
+
+
+.video2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background: yellow; */
+    font-size: 28px;
+    line-height: 1.6;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    height: 100vh;
+}
+.video2 .inner{
+    padding: 100px 40px;
+    width: 66%;
+}
+
+.slogan{
+    font-size: 12vw;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    overflow: hidden;
+    padding: 5vw 0;
+}
+.slogan .marquee{display: flex;gap: 3vw;}
+.slogan .marquee span{white-space: nowrap;}
+.slogan .marquee.top{justify-content: flex-start;}
+.slogan .marquee.bot{justify-content: flex-end;}
+
+
+
+
+
+
+.work{
+    height: 530vh;
+ 
+    color:rgb(89, 89, 89);
+    display: flex;
+    flex-direction: column;
+}
+.work h2{
+    font-size: 458px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    top: 0;
+}
+.work .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work .item{
+    position: sticky;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    top: 30px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.work .item::after{
+    position: absolute;
+    top: 0;left: 0;
+    right: 0;bottom: 0;
+    background: rgba(0,0,0,0.7);
+    content: '';
+    backdrop-filter: blur(0px);
+}
+.work .item .type{font-size: 14px; position: absolute;top: 0;left: 0;color: #fff;
+    z-index: 1;padding: 50px;
+}
+.work .item .time{font-size: 14px;position: absolute;top: 0;left: 50%;color: #fff;
+    z-index: 1;padding: 50px;
+    transform: translateX(-50%);
+}
+.work .text-area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.work .text-area h3{font-size: 50px;font-weight: 600;}
+.work .text-area p{font-size: 16px;line-height: 1.7;
+    max-width: 800px;
+    word-break: keep-all;
+    text-align: center;
+}
+
+.work .text-area a{
+    border: 1px solid #fff;
+    font-size: 18px;
+    padding: 11px 26px;
+    border-radius: 45px;
+}
+.work .first:hover .cursor{
+    opacity: 0.4;
+}
+.work .item:nth-child(1){top: calc(30px*1);}
+.work .item:nth-child(2){top: calc(30px*2);}
+.work .item:nth-child(3){top: calc(30px*3);}
+.work .item:nth-child(4){top: calc(30px*4);}
+.work .item:nth-child(5){top: calc(30px*5);}
+
+
+.cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #808080;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 1000;
+}
+.cursor.on {
+    border: 2px solid #222;
+    background: #222;
+    opacity: 1;
+}
+
+
+.work .inner{
+}
+.work .allproject{
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+
+}
+.allproject span{
+    position: relative;
+    font-family: 'Inter';
+    font-size: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 400;
+    line-height: 1.2em;
+    border:2px solid rgb(128, 128, 128);
+    border-radius: 200px;
+    padding: 20px 30px;
+    
+    
+}
+.work .allproject::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 200px;
+    background: #fff;
+    width: 100%;
+    height: 0%;
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+.work .allproject:hover::before{
+    height: 100%;
+    overflow: hidden;
+}
+.work .allproject:hover.allproject{
+    color: #000;
+}
+
+
+
+
+.sc-projectimage{
+    height: 120vh;
+    background-color: #0f0f0f;
+    overflow: hidden;
+}
+.sc-projectimage .img{
+    width: 418px;
+    background-color: #1b1c1f;
+}
+.sc-projectimage .img img{
+    height: 190px;
+}
+.sc-projectimage .top{
+    display: flex;
+    gap: 30px;
+    width: 148%;
+    height: 260px;
+    margin-bottom: 30px;
+    transform: translateX(-3%);
+}
+.sc-projectimage .bot{
+    display: flex;
+    gap: 30px;
+    width: 148%;
+    height: 260px;
+    transform: translateX(3%);
+
+}
