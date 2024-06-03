@@ -26,6 +26,7 @@
 </head>
 <body>
 
+    <div class="cursor" ></div>
 
     <header class="header">
         <div class="inner">
@@ -36,16 +37,16 @@
             </h1>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="">INTRO</a>
+                    <a href="#intro" class="introlink">INTRO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">ABOUT</a>
+                    <a href="#about" class="aboutlink">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">WORK</a>
+                    <a href="#work" class="worklink">WORK</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">CONTACT</a>
+                    <a href="#contact" class="contactlink">CONTACT</a>
                 </li>
                
             </ul>
@@ -54,23 +55,25 @@
 
 
 
-    <main class="main">
+    <main class="main" id="intro">
 
         <section class="sc-intro">
             <div class="text-area">
                 <div class="wrap">
                     <div class="swiper">
                         <div class="swiper-wrapper">
+                            <div class="swiper-slide">Positive</div>
+                            <div class="swiper-slide">Flexible</div>
+                            <div class="swiper-slide">Creative</div>
                             <div class="swiper-slide">Adaptable</div>
-                            <div class="swiper-slide">excelling</div>
-                            <div class="swiper-slide">challenges</div>
-                            <div class="swiper-slide">Adaptable</div>
-                            <div class="swiper-slide">communication</div>
-                            <div class="swiper-slide">excelling</div>
+                            <div class="swiper-slide">Faithful</div>
+                            <div class="swiper-slide">Responsibility</div>
+                            <div class="swiper-slide">Good at Communicate</div>
+                            <div class="swiper-slide">Good at sociability</div>
                         </div>
                     </div>
 
-                    <p>Apple의 system-ui가 익숙한 나로서는 San Francisco와 Apple SD 산돌고딕 Neo가 없는 다른 환경에서 이를 대체할 수 있는 글꼴을 꾸준히 갈망해왔다. Inter는 San Francisco가 없는 다른 환경에서 대체 역할을 쏠쏠히 해오고 있다고는 하지만, 타협 없이 네오 그로테스크의 뜻을 가진 San Francisco와 달리 몇몇 소문자 글자가 휴머니스트적인 인상을 가지고 있기 때문에, </p>
+                    <p>Adaptable web publisher excelling in challenges, fostering seamless communication. </p>
                 </div>
             </div>
 
@@ -82,10 +85,13 @@
 
 
 
-        <section class="video2">
+        <section class="video2" id="about">
             <div class="inner">
                 <p class="text">
-                    Apple의 system-ui가 익숙한 나로서는 San Francisco와 Apple SD 산돌고딕 Neo가 없는 다른 환경에서 이를 대체할 수 있는 글꼴을 꾸준히 갈망해왔다. Inter는 San Francisco가 없는 다른 환경에서 대체 역할을 쏠쏠히 해오고 있다고는 하지만, 타협 없이 네오 그로테스크의 뜻을 가진 San Francisco와 달리 몇몇 소문자 글자가 휴머니스트적인 인상을 가지고 있기 때문에,
+                    웹개발의 기술은 나날이 발전하고, 트렌드 또한 계속해서 바뀌고 있는데, 빠르게 발전하는 기술과 트렌드로 인한 변화를 능동적이고 긍정적인 자세로 끊임없이 공부하여,<br>
+                    첫번째로, 제 자신이 발전하고 성장하며<br>
+                    두번째로, 그로 인해 함께 일하는 동료들도 같이 성장하고,<br>
+                    세번째로, 귀사도 함께 발전하고 성장하게 하는 퍼블리셔가 되겠습니다.
                 </p>
             </div>
         </section>
@@ -105,36 +111,66 @@
                 <span>Digital Beauty</span>
             </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
             <div class="inner">
                 <h2>WORK</h2>
                 <div class="item">
+                    <img src="https://www.navercorp.com/img/pc/service-naver-bg-2.jpg" alt="">
+
+                   <div class="text-area">
+                        <h3>Naver</h3>
+                        <p>연습용으로 네이버 페이지를 클론코딩 해 봤습니다. </p>
+                        <a href="https://kimquaresma.github.io/Naverportf/">PROJECT</a>
+                   </div>
+                   <span class="type"></span>
+                   <span class="time">2024.04.09 - 2024.04.13 [5일 소요]</span>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/konai_sns.png" alt="">
+
+                   <div class="text-area">
+                        <h3>Kona I</h3>
+                        <p>swiper와, scrolltrigger, gsap 을 사용하여 페이지를 만들어 봤습니다. </p>
+                        <a href="https://kimquaresma.github.io/konaiportf/">PROJECT</a>
+                   </div>
+                   <span class="type"></span>
+                   <span class="time">2024.04.16 - 2024.04.20 [5일 소요]</span>
+                </div>
+                <div class="item">
                     <img src="https://woowahan-cdn.woowahan.com/new_resources/image/banner/9f861f6086e845b98dfba7ec241f82ca.jpg" alt="">
-                   <div class="cursor"></div>
 
                    <div class="text-area">
                         <h3>우아한 형제들</h3>
-                        <p>에서 서술했듯 Inter에 조금 남아 있는 휴머니스트적인 인상을 네오 그로테스크에 가깝게 다듬었다. 이외로 @나 원 기호—₩ 등을 일상적으로 쓰이는 모습으로 맞추고, San Francisco와 비교했을 때 조금 좁게 보였던 숫자도 폭을 기존보다 넓혀 더욱 자연스럽도록 했다.</p>
-                        <a href="">PROJECT</a>
+                        <p>swiper와, scrolltrigger, gsap을 사용하였고 marquee 기법을 사용하여 반응형으로 페이지를 만들어 봤습니다. </p>
+                        <a href="https://kimquaresma.github.io/wooahhanport/
+                        ">PROJECT</a>
                    </div>
                    <span class="type">RESPONSE</span>
-                   <span class="time">2024.02.20 - 2024.02.33 [3일 소요]</span>
-                </div>
-
-                <div class="item">
-                    <img src="https://woowahan-cdn.woowahan.com/new_resources/image/banner/9f861f6086e845b98dfba7ec241f82ca.jpg" alt="">
-                    <div class="cursor"></div>
-
+                   <span class="time">2024.04.23 - 2024.04.27 [5일 소요]</span>
                 </div>
                 <div class="item">
-                    <img src="https://woowahan-cdn.woowahan.com/new_resources/image/banner/9f861f6086e845b98dfba7ec241f82ca.jpg" alt="">
-                    <div class="cursor"></div>
+                    <img src="./assets/images/fewandfarback.png" alt="">
 
+                   <div class="text-area">
+                        <h3>few & far</h3>
+                        <p>연습용으로 해외 페이지를 클론코딩 해 봤습니다. </p>
+                        <a href="https://kimquaresma.github.io/fewfar------/">PROJECT</a>
+                   </div>
+                   <span class="type"></span>
+                   <span class="time">2024.05.07 - 2024.05.11 [5일 소요]</span>
                 </div>
                 <div class="item">
-                    <img src="https://woowahan-cdn.woowahan.com/new_resources/image/banner/9f861f6086e845b98dfba7ec241f82ca.jpg" alt="">
-                    <div class="cursor"></div>
+                    <img src="http://fredpizza5.cafe24.com/banner/banner1.png" alt="">
+
+                   <div class="text-area">
+                        <h3>Fred pizza</h3>
+                        <p>swiper와, scrolltrigger, gsap을 사용하였고 marquee 기법을 사용하여 반응형으로 페이지를 만들어 봤습니다. </p>
+                        <a href="https://kimquaresma.github.io/fredpizzaportfo/">PROJECT</a>
+                   </div>
+                   <span class="type">RESPONSE</span>
+                   <span class="time">2024.05.14 - 2024.05.18 [5일 소요]</span>
                 </div>
+
             </div>
 
             <a href="" class="allproject">
@@ -144,20 +180,21 @@
      
     </main>
     <footer class="footer">
-        <div class="top">
+        <div id="contact" class="top">
             <div class="top-left">
                 <a href="">
-                    <p>Drop a line<br>if you want to collab.</p>
+                    <p>나의 성장<br>그리고 동료의성장, 한발 더 나아가<br> 회사를 성장시키는 퍼블리셔가 되겠습니다.</p>
                 </a>
             </div>
             <div class="top-right">
-                <a href="">Github</a>
-                <a href="">Velog</a>
+                <a href="https://github.com/kimquaresma">Github</a>
+                <a href="https://velog.io/@kimquaresma">Velog</a>
             </div>
         </div>
         <span class="bottom">
             Jinwoo Kim®
         </span>
+        
     </footer>
 </body>
 </html>

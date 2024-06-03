@@ -3,21 +3,19 @@
 @import './common.css';
 
 
-.cursor {
+.cursor{
     position: fixed;
+    top: 0;left: 0;
     width: 10px;
     height: 10px;
-    border: 2px solid #808080;
-    border-radius: 50%;
-    opacity: 0.4;
-    z-index: 1000;
+    background: #fff;
+    transform: translate(-50%, -50%);
+  
+    border-radius: 50%;	
     pointer-events: none;
-}
-.cursor.on {
-    border: 2px solid #222;
-    background: #222;
-    opacity: 1;
-}
+    mix-blend-mode: difference;
+    z-index: 99;
+  }
 
 
 .header{
@@ -66,7 +64,7 @@
     padding: 50px;
 }
 .footer .top>*{flex: 1;}
-.footer .top p{font-size: 30px;}
+.footer .top p{font-size: 30px; min-width: 500px;}
 
 .footer .top-right{
     gap: 20px;
